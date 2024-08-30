@@ -8,13 +8,18 @@
     {
         "nome": "Cantina Italiana",
         "categoria": "ITALIANA",
-        "ativo": true,
-        "avaliacao": []
+        "ativo": false,
+        "avaliacao": [
+            {
+                "cliente": "Gabi",
+                "nota": 3.0
+            }
+        ]
     },
     {
         "nome": "Sushi Zen",
         "categoria": "JAPONESA",
-        "ativo": false,
+        "ativo": true,
         "avaliacao": [
             {
                 "cliente": "Ignacio",

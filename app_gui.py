@@ -135,7 +135,7 @@ class RestauranteApp(tk.Tk):
         top.geometry("300x200")
         if os.path.exists("restaurante.ico"):
             top.iconbitmap("restaurante.ico")
-
+            
         ttk.Label(top, text="Nome:").pack(pady=5)
         nome_entry = ttk.Entry(top)
         nome_entry.pack(pady=5)
