@@ -19,7 +19,7 @@ class Restaurante:
     
     @property
     def ativo(self):
-        return '⌧' if self._ativo else '☐'
+        return 'Aberto' if self._ativo else 'Fechado'
     
     def alternar_estado(self):
         self._ativo = not self._ativo
